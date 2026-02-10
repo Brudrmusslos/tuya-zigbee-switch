@@ -12,7 +12,32 @@
 # - Fill empty values with null
 # - Keep KEYs in (mostly) alphabetical order
 # - Keep attributes in the same order
-
+SWITCH__MOES__TS0726:
+  human_name: Moes SR-ZS Smart switch (light + sence) 6-gang
+  category: switch
+  power: mains
+  neutral: required
+  device_type: router
+  mcu: TLSR8258
+  stock_model_name: TS0726
+  stock_manufacturer_name: _TZ3002_vaq2bfcu
+  stock_converter_manufacturer: Moes
+  stock_converter_model: SR-ZS
+  override_z2m_device: null
+  tuya_module: ZTU
+  mcu_family: Telink
+  config_str: vaq2bfcu;TS0726-6-MO;SB6u;SC1u;SC4u;SB7u;RD2;RB4;RB5;LD3;LD7;LC0;LA0;LA1;LC2;LC3
+  alt_config_str: null
+  old_manufacturer_names: null
+  old_zb_models: null
+  stock_manufacturer_id: 4417
+  stock_image_type: 65535
+  firmware_image_type: 45579
+  build: yes
+  status: in_progress
+  info: 6 gang currently unsupported, pinout unconfirmed, leds not yet implemented
+  threads: https://github.com/romasku/tuya-zigbee-switch/issues/332
+  store: https://moeshouse.com/products/eu-star-ring-smart-light-switch-1?variant=45282168504635
 BOARD__MHCOZY_TS0004:
   human_name: MHCOZY TYWB 4ch-RF <br> ZG-005(-RF) 🅰
   category: board
